@@ -1,0 +1,946 @@
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#sec-1 {
+  background: url(/bg.jpg)  no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  height: 100vh;
+  width: 100%;
+}
+.active{
+  color: #ffc200 !important;
+
+}
+ul.nav a:hover {
+  color: #ffc200 !important;
+}
+
+.txtt:hover{
+  color: #ffc200 !important;
+
+}
+
+.paragraph span{
+display: block;
+opacity: 0;
+animation: reveal 0.9s forwards var(--d);
+}
+@keyframes reveal {
+  from{transform: translateY(20px);}
+ to{opacity:1; transform: none;}
+
+}
+
+.p1 {
+  font-size: 50px;
+  color: #ffc200;
+  font-family: "Permanent Marker", cursive;
+  /* font-family: "PhotoWall-Medium"; */
+}
+.p2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.918);
+}
+.p3 {
+  font-size: 50px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.clip-circle {
+  position: absolute;
+  top: 4rem;
+  width: 70%;
+  clip-path: circle(800px at center);
+}
+
+.img1 {
+  background: url(/BG1.png) center center;
+  /* background-clip: ; */
+  background-size: cover;
+  /* background-attachment: scroll; */
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  /* background-origin: content-box; */
+  background-repeat: no-repeat;
+}
+.p3 {
+  font-size: 50px;
+  color: #ffc200;
+  font-family: "Permanent Marker", cursive;
+}
+.p4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.918);
+}
+
+.p6 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.918);
+}
+.img2 {
+  background-image: url(/bg3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+}
+.clip-circle2 {
+  position: absolute;
+  top: 12rem;
+  width: 64%;
+  clip-path: circle(800px at center);
+}
+.bttn{
+  color: black;
+}
+.p5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.918);
+}
+
+.carddes {
+  height: 150px;
+  width: 150px;
+  border-radius: 10rem;
+  border: 3px solid white;
+}
+.boxx {
+  gap: 100px;
+}
+#txt1 {
+  padding-top: 15px;
+}
+.hown {
+  color: rgba(255, 174, 0, 0.918);
+}
+.txt2 {
+  color: rgba(255, 255, 255, 0.918);
+}
+
+.img3 {
+  background-image: url(/bg2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.button1 {
+  color: #303030;
+}
+.button1:hover {
+  color: rgba(243, 242, 240, 0.918);
+  background-color: #303030;
+}
+
+.Campus {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 29px; */
+}
+
+.campus-column {
+  /* flex-basis: 42%; */
+  /* border-radius: 20px; */
+  /* margin-bottom: 30px; */
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+
+}
+
+.campus-column img {
+  width: 100%;
+  /* border-radius: 7px; */
+  display: block;
+}
+
+.overlay {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.overlay:hover {
+  background: #ffd041a1;
+}
+
+.overlay h3 {
+  width: 100%;
+  /* font-weight: 500; */
+  color: #020202;
+  font-size: 46px;
+  bottom: 0;
+  /* left: 200px; */
+  /* transform: translateX(-50%); */
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.overlay:hover h3 {
+  bottom: 36%;
+  opacity: 1;
+}
+
+.overlay h1 {
+  width: 100%;
+  /* font-weight: 500; */
+  color: #020202;
+  font-size: 46px;
+  bottom: 0;
+  /* left: 200px; */
+  /* transform: translateX(-50%); */
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.overlay:hover h1 {
+  bottom: 28%;
+  opacity: 1;
+}
+
+.p7 {
+  font-size: 50px;
+  color: #ffc200;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.918);
+  /* font-size: ca; */
+}
+
+#section7 {
+  background: url(/bg4.jpg) center no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+}
+
+form {
+  text-align: center;
+}
+div1 {
+  height: 600px;
+}
+
+/* .btnn{
+/* margin-bottom:500px ; */
+/* margin-left: 500px; */
+
+/* } */
+
+#sec8 {
+  background: url(/c7.png) no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: center;
+  height: auto;
+  width: 100%;
+}
+.p8{
+    font-size: 50px;
+  color: #ffc200;
+  font-family: "Permanent Marker", cursive;
+}
+.p9 {
+  font-size: 50px;
+  color: #ffc200;
+  font-family: "Permanent Marker", cursive;
+  /* font-family: "PhotoWall-Medium"; */
+}
+.p10{
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.918);
+}
+
+.bor{
+  border:0px;
+}
+
+
+.zoom {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s;
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+
+
+.zoom1 {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s;
+  /* width: 200px; */
+  /* height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom1:hover {
+  transform: scale(1.5); 
+}
+
+
+ .header {
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.progress-container {
+  position: fixed;
+  width: 100%;
+  height: 8px;
+  background: #ffffff;
+  z-index: 1;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+.content {
+  width: 100%;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+
+
+
+/* -----------------------------------responsive---------------------- */
+
+
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .p1 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgba(17, 0, 255, 0.13),
+        0 0 82px rgb(25, 0, 255, 0.13),
+        0 0 92px rgb(47, 0, 255, 0.13),
+        0 0 102px rgb(25, 0, 255, 0.13),
+        0 0 151px rgb(38, 0, 255, 0.13);
+    font-size: 40px;
+    color: #ffc200;
+    font-family: "Permanent Marker", cursive;
+    /* font-family: "PhotoWall-Medium"; */
+  }
+  .p2 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.918);
+  }
+  .p3 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+  }
+ 
+.p5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.918);
+}
+.overlay h3 {
+  font-size: 18px;
+}  
+.overlay h1{font-size: 24px}
+.p10{
+  font-size: 25px;
+}
+.clip-circle {
+  position: absolute;
+  top: 50rem;
+  width: 70%;
+  clip-path: circle(800px at center);
+  margin: 0 0 0 0;
+}
+.clip-circle2 {
+  position: absolute;
+  top: 35rem;
+  width: 80%;
+  clip-path: circle(800px at center);
+}
+.img1 {
+  height: 100vh;
+}
+.img2 {
+  height: 100%;
+
+}
+.campus-column img {
+  width: 250%;
+}
+}
+
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .p1 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-size: 40px;
+    color: #ffc200;
+    font-family: "Permanent Marker", cursive;
+    /* font-family: "PhotoWall-Medium"; */
+  }
+  .p2 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.918);
+  }
+  .p3 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+  }
+ 
+.p5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.918);
+}
+.overlay h3 {
+  font-size: 18px;
+}
+.overlay h1{font-size: 24px}
+.p10{
+  font-size: 17px;
+}
+.clip-circle {
+  position: absolute;
+  top: 1rem;
+  width: 70%;
+  clip-path: circle(800px at center);
+}
+.clip-circle2 {
+  position: absolute;
+  top: 35rem;
+  width: 80%;
+  clip-path: circle(800px at center);
+}
+}
+ 
+
+
+
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .p1 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-size: 40px;
+    color: #ffc200;
+    font-family: "Permanent Marker", cursive;
+    /* font-family: "PhotoWall-Medium"; */
+  }
+  .p2 {
+    /* text-shadow: 1px 1px #000000; */
+
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.918);
+  }
+  .p3 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+  }
+ 
+.p5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.918);
+}
+.overlay h3 {
+  font-size: 18px;
+}
+.overlay h1{font-size: 24px}
+.p10{
+  font-size: 17px;
+}
+.clip-circle {
+  position: absolute;
+  top: 1rem;
+  width: 70%;
+  clip-path: circle(800px at center);
+}
+.clip-circle2 {
+  position: absolute;
+  top: 35rem;
+  width: 80%;
+  clip-path: circle(800px at center);
+}
+.campus-column img {
+  width: 250%;
+}
+}
+
+
+
+
+
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  
+.img1{
+  height: 140vh;
+}
+.img3{
+  height: 180vh;
+}
+.p10{
+font-size: 15px;
+}
+.overlay h3 {
+  font-size: 18px;
+}
+.overlay h1{font-size: 24px}
+
+.clip-circle {
+  position: absolute;
+  /* top: 1rem; */
+  width: 40%;
+  clip-path: circle(800px at center);
+}
+.clip-circle2 {
+  /* position: absolute; */
+  /* top: 35rem; */
+  width: 34%;
+  clip-path: circle(800px at center);
+}
+}
+
+
+
+
+
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .p1 {
+        /* text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255); */
+    font-size: 40px;
+    color: #ffc200;
+    font-family: "Permanent Marker", cursive;
+    /* font-family: "PhotoWall-Medium"; */
+  }
+  .p2 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.918);
+  }
+  .p3 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+  }
+ 
+.p5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.918);
+}
+.overlay h3 {
+  font-size: 18px;
+}
+.overlay h1{font-size: 24px}
+.p10{
+  font-size: 17px;
+}
+.clip-circle {
+  position: absolute;
+  top: 1rem;
+  width: 38%;
+  clip-path: circle(800px at center);
+}
+.clip-circle2 {
+  position: absolute;
+  top: 35rem;
+  width: 80%;
+  clip-path: circle(800px at center);
+}}
+ 
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+  .p1 {
+    /* background: rgb(2,0,36);                                                                                                                                                        */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,31,38,0.4822303921568627) 41%, rgba(85,97,99,0.7203256302521008) 91%); */
+    font-size: 40px;
+    color: #ffc200;
+    font-family: "Permanent Marker", cursive;
+    /* font-family: "PhotoWall-Medium"; */
+  }
+  .p2 {
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-family: "Lucida Sans", "Lucida Sans Regular";
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.918);
+  }
+  .p3 {
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+  }
+  .clip-circle {
+    position: absolute;
+    top: 1rem;
+    width: 20%;
+    clip-path: circle(800px at 50% 50%);
+}
+.p5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.918);
+}
+.overlay h3 {
+  font-size: 18px;
+}
+.overlay h1{font-size: 24px}
+.p10{
+  font-size: 17px;
+}
+.clip-circle {
+  position: absolute;
+  top: 1rem;
+  width: 38%;
+  clip-path: circle(800px at center);
+}
+.clip-circle2 {
+  position: absolute;
+  top: 35rem;
+  width: 80%;
+  clip-path: circle(800px at center);
+}
+}
+
+@media only screen and (min-device-width: 700px){
+  .p2 {
+    font-size: 20px;
+  } 
+
+  .img3{
+    height: 100vh;
+  }
+}
+.clip-circle {
+    position: absolute;
+    width: 50%;
+    clip-path: circle(800px at center);
+}
+.boxx {
+  gap: 10px;
+}
+
+.clip-circle2 {
+  position: absolute;
+  top: 15rem;
+  width: 70%;
+  clip-path: circle(800px at center);
+}
+.campus-column img {
+  width: 115%;
+}
+
+@media (max-width:375px) {
+  
+  .campus-column img {
+    width: 450%;
+  }
+  .img1{
+    height: 120vh;
+  }
+  .img3{
+    height: 130vh;
+  }
+
+  .p10{
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+    font-size: 13px;
+  }
+  .p2{
+    color: #fff;
+    text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+        font-size: 14px;
+  }
+
+  /* .p3{
+    font-size: 10px!important;
+  } */
+  .p5{
+    font-size: 20px!important;
+  }
+  }      
+    @media (max-width:780px) {
+      .campus-column img {
+        width: 180vw!important;
+      }
+      .img1{
+        height: 100vh;
+      }
+      .p1{
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255, 0.4),
+        0 0 82px rgb(25, 0, 255, 0.4),
+        0 0 92px rgb(47, 0, 255, 0.4),
+        0 0 102px rgb(25, 0, 255, 0.4),
+        0 0 151px rgb(38, 0, 255, 0.4);
+      }
+      .p2{
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+      }
+     
+      .p10{
+        text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+        font-size: 20px!important;
+      }
+      .p5{
+        font-size: 20px!important;
+      }
+
+      }
+      @media (max-width:1024px) {
+        .p2 {
+          text-shadow:
+          0 0 7px #000000,
+          0 0 10px #000000,
+          0 0 21px #000000,
+          0 0 42px rgb(17, 0, 255),
+          0 0 82px rgb(25, 0, 255),
+          0 0 92px rgb(47, 0, 255),
+          0 0 102px rgb(25, 0, 255),
+          0 0 151px rgb(38, 0, 255);
+          font-size: 23px;
+      }
+        .campus-column img {
+          width: 135vw!important;
+        }
+        .p5{
+          font-size: 24px;
+        }
+        .p10{
+          font-size: 20px;
+        }
+        .img1 {
+          height: 100vh;
+      }
+        }
+        @media (min-width:1440px) {
+          .campus-column img {
+            width: 100vw!important;
+          }
+          .p10{
+            font-size: 30px;
+          }
+          .p2{
+            font-size: 25px;
+          }
+          .p5{
+            font-size: 27px!important;
+          }
+          .img1 {
+            height: 100vh;
+        }
+          }
+
+
+          @media (max-width:425px) {
+            .p2{
+              font-size: 20px!important;
+            }
+            .p3{
+              font-size: 40px!important;
+            }
+            .p5{
+              font-size: 15px!important;
+            }
+
+
+          .img1{
+            height: 110vh;
+          }
+          .img3{
+            height: 100vh;
+          }
+          .p10{
+            font-size: 13px!important;
+                  text-shadow:
+        0 0 7px #000000,
+        0 0 10px #000000,
+        0 0 21px #000000,
+        0 0 42px rgb(17, 0, 255),
+        0 0 82px rgb(25, 0, 255),
+        0 0 92px rgb(47, 0, 255),
+        0 0 102px rgb(25, 0, 255),
+        0 0 151px rgb(38, 0, 255);
+          }
+          }
+
+          @media (max-width:780px) {
+            .campus-column img {
+              width: 180vw!important;
+            }
+          }
+          @media (max-width:425px) {
+            .campus-column img {
+              width: 85rem!important;
+            }
+          }
